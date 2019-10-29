@@ -18,7 +18,7 @@ You'll need to provide the following configuration:
 
 - **AZURE_ORG_URL** - This is the URL pointing to your Organization root (e.g. https://dev.azure.com/yourorgname).
 - **AZURE_PERSONAL_ACCESS_TOKEN** - Create a PAT in your Azure DevOps profile (Follow the [documentation](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops)).
-- **AZURE_PROJECT_NAME** - This is the plain name of the project.
+- **AZURE_PROJECT_NAME** - This is the plain name of the project in Azure, also part of the URL of repositories.
 
 ## References
 
