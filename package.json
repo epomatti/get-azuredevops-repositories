@@ -1,0 +1,18 @@
+{
+  "name": "get-azuredevops-repos",
+  "version": "1.0.0",
+  "description": "Simple app that connects to Azure DevOps API to get repository information",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "url": "http://github.com/epomatti/get-azuredevops-repositories"
+  },
+  "dependencies": {
+    "azure-devops-node-api": "latest",
+    "dotenv": "latest"
+  }
+}
