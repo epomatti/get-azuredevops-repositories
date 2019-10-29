@@ -20,7 +20,8 @@ getRepositories = () => {
     })
 }
 
-// API Reference doesn't specify the possible outcomes so there goes a switch statement...
+// API Reference returns text (only two values: private and public) but the Client is returning numbers
+// So, there goes a switch statement...
 getVisibilityText = (visibility) => {
     switch (visibility) {
         case 0:
