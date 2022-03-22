@@ -1,6 +1,6 @@
 # Get Azure DevOps Repositories
 
-
+![workflow](https://github.com/epomatti/get-azuredevops-repositories/actions/workflows/node.js.yml/badge.svg)
 
 Script that connects to Azure DevOps API using the client for Node.js and gets some repository information.
 
