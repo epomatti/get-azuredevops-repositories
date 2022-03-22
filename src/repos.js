@@ -11,11 +11,14 @@ getRepositories = () => {
 
     connection.getGitApi().then(git => {
         git.getRepositories(project).then(repositories => {
-            repositories.forEach(repository => {
-                let visibilityText = getVisibilityText(repository.project.visibility);
-                let url = repository.remoteUrl
-                console.log(`${visibilityText} ${url}`)
-            })
+            if (repositories) {
+                console.log(`The script found ${repositories.length} repositories:`)
+                repositories.forEach(repository => {
+                    let visibilityText = getVisibilityText(repository.project.visibility);
+                    let url = repository.remoteUrl
+                    console.log(`${visibilityText} ${url}`)
+                })
+            }
         })
     })
 }

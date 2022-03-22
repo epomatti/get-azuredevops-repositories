@@ -4,6 +4,7 @@
     "description": "Simple app that connects to Azure DevOps API to get repository information",
     "main": "index.js",
     "scripts": {
+      "start": "node src/index.js",
       "test": "jest"
     },
     "author": "",
